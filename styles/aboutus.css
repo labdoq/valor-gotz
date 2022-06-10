@@ -1,0 +1,161 @@
+
+.container {
+    width: auto;
+    max-width: 1920px; 
+    max-height: auto;    
+    width: 100%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #E2F2F4;
+    margin: 0;
+    width: 100%;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    
+}
+nav a {
+    text-decoration: none;
+    vertical-align: middle;
+}
+
+nav li {
+    display: inline-block;
+    padding: 0 71px;
+}
+
+.parag {
+    width: 935px;
+    height: 59px;
+
+    font-family: 'PT Serif';
+    font-style: normal;
+    font-size: 64px;
+
+    margin: 50px 38%;
+    
+    color: #000000;
+}
+
+.content1 {
+    font-family: 'PT Serif';
+    font-style: normal;
+    font-weight: 350;
+    font-size: 32px;
+    line-height: 42px;
+    text-align: center;
+}
+
+.content2 {
+    font-family: 'PT Serif';
+    font-style: normal;
+    font-weight: 350;
+    font-size: 32px;
+    line-height: 42px;
+    text-align: left;
+}
+
+.leftpic {
+    float: left;
+    
+}
+.rightpic {
+    float: right;
+    
+}
+
+figure figcaption {
+    font-family: 'PT Serif';
+    font-style: normal;
+    font-size: 32px;
+    text-align: center;
+}
+
+.leftpic img
+{
+    border-radius: 50px;
+}
+.rightpic img
+{
+    border-radius: 50px;
+}
+
+footer {
+    clear: both;
+
+    width: 100%;
+    height: 277px;
+    background: #697E9A;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: auto;
+}
+
+.fcontacts {
+
+    
+    width: 390px;
+    height: 206px;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: 'PT Serif';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    
+    display: inline-block;
+    color: #FFFFFF;
+    
+}
+
+.fquickmenu {
+    position: absolute;
+    left: 45%;
+    vertical-align: middle;
+    width: 177px;
+    height: 206px;
+    font-family: 'PT Serif';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+
+    display: inline-block;
+    color: #FFFFFF;
+
+}
+
+.fsocial {
+    position: absolute;
+    left: 85%;
+    vertical-align: middle;
+    width: 254px;
+    height: 206px;
+    font-family: 'PT Serif';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    
+    display: inline-block;
+    color: #FFFFFF;
+
+}
+
+.fsocial p{
+    line-height: 0;
+}
+
+.leftcol {
+    width: 45px; 
+    vertical-align: top;
+}
+
+.social {
+    line-height: 49px;
+}
+
